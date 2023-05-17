@@ -1,27 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: "Nunito";
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Nunito';
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 @font-face {
-  font-family: "Nunito";
-  src: url("./components/assets/fonts/Nunito.ttf");
+	font-family: 'Nunito';
+	src: url('./components/assets/fonts/Nunito.ttf');
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("./components/assets/fonts/Inter.ttf");
+	font-family: 'Inter';
+	src: url('./components/assets/fonts/Inter.ttf');
 }
 
 @font-face {
-  font-family: "Poundcake";
-  src: url("./components/assets/fonts/Poundcake.ttf");
+	font-family: 'Poundcake';
+	src: url('./components/assets/fonts/Poundcake.ttf');
 }

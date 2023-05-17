@@ -1,21 +1,21 @@
-import React from "react";
-import styles from "./app.module.sass";
+import React from 'react';
+import styles from './app.module.sass';
 
-import Footer from "../footer/footer";
-import Header from "../header/header";
+import Footer from '../footer/footer';
+import Header from '../header/header';
 
-import Main from "../main/main";
+import Main from '../main/main';
 
 function App() {
-  return (
-    <div className={styles.app}>
-      <Header/>
+	return (
+		<div className={styles.app}>
+			<Header />
 
-      <Main />
+			<Main />
 
-      <Footer/>
-    </div>
-  );
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
