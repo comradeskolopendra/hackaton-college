@@ -14,7 +14,7 @@ const Footer = () => {
         <div className={styles.socials}>
           {[facebook, github, inst, twitter, linkedin, youtube].map(
             (element) => (
-              <a href="#" className={styles.link}>
+              <a key={element} href="#" className={styles.link}>
                 <img src={element} className={styles.socialImage} alt="" />
               </a>
             )
