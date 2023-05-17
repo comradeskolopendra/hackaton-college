@@ -9,7 +9,7 @@ import youtube from "../assets/images/youtube.svg";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.footer} id="info">
       <div className={styles.footerInner}>
         <div className={styles.socials}>
           {[facebook, github, inst, twitter, linkedin, youtube].map(
